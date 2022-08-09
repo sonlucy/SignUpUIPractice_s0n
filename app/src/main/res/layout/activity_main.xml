@@ -5,13 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:gravity="top"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="410dp"
-        android:layout_height="410dp"
-        android:src="@drawable/s0n_logo_01"
-        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/s0n_logo_01"
+            android:scaleType="centerCrop"/>
+
+    </LinearLayout>
+
 
 
     <TextView
